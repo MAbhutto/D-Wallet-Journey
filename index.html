@@ -42,9 +42,9 @@
         <img src="https://github.com/MAbhutto/D-Wallet-Journey/blob/main/summary%20icon.PNG?raw=true" width="50"></h1>
     </header>
     <main>
-        <h2>Project Idea</h2>
+        <h2>Project Summary</h2>
         <p>In today’s digital era, financial services have drastically evolved, with digital wallets emerging as a cornerstone of modern banking. Our project, "D-Wallet Journey," aims to delve deep into the realm of digital wallets, focusing on understanding user personas and multi-service usage patterns. By analyzing user behaviors related to various services offered for a wallet business, e.g. transfers, bill payments, mobile packages, and mobile recharges, we aim to uncover the intricate patterns and preferences that shape user experiences.</p>
-        <h2>Novelty</h2>
+        <h2>Novelty of the Project</h2>
         <p>"D-Wallet Journey" stands out due to its comprehensive and data-driven approach. We employ advanced analytical techniques such as Pareto analysis, multi-service usage patterns exploration, and user personas analysis to provide a holistic view of user interactions within the digital wallet ecosystem. Our project doesn't just analyze data; it transforms raw data into actionable insights, guiding businesses towards optimizing service offerings and enhancing customer experiences. The novelty lies in the integration of data sources and the creation of user-centric visualizations, offering a unified view of user behavior and preferences.</p>
         <h2>Results</h2>
         <p>"D-Wallet Journey" project has successfully achieved its goal of uncovering and analyzing the intricate patterns and behaviors within the digital wallet ecosystem. By employing advanced analytical techniques and leveraging the power of Business Intelligence tools, we have gained valuable insights into user personas, multi-service usage patterns, and key performance metrics. These insights have not only enhanced our understanding of customer preferences and behaviors but also provided actionable recommendations for optimizing service offerings and boosting customer engagement.</p>
@@ -58,13 +58,65 @@
         <img src="https://github.com/MAbhutto/D-Wallet-Journey/blob/main/Service%20Based%20Geaduation.PNG?raw=true" width="800">
         <img src="https://github.com/MAbhutto/D-Wallet-Journey/blob/main/Time%20to%20graduate.PNG?raw=true" width="800">
         <img src="https://github.com/MAbhutto/D-Wallet-Journey/blob/main/User%20Personas.PNG?raw=true" width="800">
-        <h2>Features</h2>
+        <h2>Design Diagram</h2>
+        <img src="https://github.com/MAbhutto/D-Wallet-Journey/blob/main/Design%20Diagram.PNG?raw=true" width="800">
+        <div class="section">
+        <h2>1. Data Sources</h2>
         <ul>
-            <li>Advanced analytics including Pareto analysis</li>
-            <li>Multi-service usage patterns exploration</li>
-            <li>User personas analysis</li>
-            <li>Interactive dashboards and visualizations</li>
+            <li>Transactions: Transactional data of all kinds of services</li>
+            <li>Users: User information</li>
+            <li>MSU customer metrics: Data is queried to view the monthly status of users with their transactions across all services</li>
+            <li>MSU combo details: Data is queried to view the number of users across all combinations of services every month</li>
+            <li>MSU graduation details: Data is queried to see how many days it took for each user to graduate as a multi-service user</li>
         </ul>
+        <div class="description">
+            <p>Description: These data sources provide raw transactional data necessary for the analysis. Each service generates data that reflects user interactions and transactions.</p>
+        </div>
+        </div>
+    
+        <div class="section">
+        <h2>2. ETL Process</h2>
+        <ul>
+            <li>Extract: Collecting data from various sources.</li>
+            <li>Transform: Cleaning, normalizing, and enriching data to ensure consistency and quality.</li>
+            <li>Load: Loading the transformed data into the data warehouse.</li>
+        </ul>
+        <div class="description">
+            <p>Description: The ETL process ensures that raw data from different sources is accurately collected, processed, and stored in a unified format, making it ready for analysis.</p>
+        </div>
+        </div>
+    
+        <div class="section">
+            <h2>3. Data Storage Infrastructure</h2>
+            <p>Unified Data Repository: A centralized storage system where all processed data is stored on SQL server.</p>
+            <div class="description">
+                <p>Description: This component serves as the main data storage hub, consolidating data from multiple sources into a single repository for easy access and analysis.</p>
+            </div>
+        </div>
+    
+        <div class="section">
+            <h2>4. Data Analysis</h2>
+            <ul>
+                <li>Descriptive Analysis: Analyzing historical data to understand past behaviors and trends.</li>
+                <li>Segmentation: Identifying distinct user personas and segmenting users based on their behaviors.</li>
+            </ul>
+            <div class="description">
+                <p>Description: This module performs various types of analysis to derive insights from the data, including understanding historical trends, predicting future outcomes, and segmenting users for targeted strategies.</p>
+            </div>
+        </div>
+    
+        <div class="section">
+            <h2>5. Interactive BI Tools</h2>
+            <p>Power BI Dashboards for Stakeholders: Visual dashboards created using Power BI to present data insights in an interactive and understandable format.</p>
+            <div class="description">
+                <p>Description: Dashboards provide a visual representation of the analysis, allowing stakeholders to interact with the data, apply filters, and drill down into specific metrics. This facilitates better understanding and decision-making.</p>
+            </div>
+        </div>
+    
+        <div class="section">
+            <h2>Conclusion</h2>
+            <p>By following this design methodology, the project ensures a structured approach to data analysis, enabling the generation of valuable insights that can drive strategic decisions and optimize the services offered by the wallet business.</p>
+        </div>
         <h2>Contact Us</h2>
         <p>If you have any questions or would like more information, please <a href="mailto:info@dwalletjourney.com">contact us</a>.</p>
     </main>
